@@ -10,7 +10,6 @@
 auto Fn = [=](auto x, auto a){return x / a + a / x;};
 
 int main(int argc, char *argv[]) {
-    std::cout << argc << std::endl;
     // print warning and usage help if not enough arguments given
     if(argc < 3) {
         std::cout << "run " << argv[0] << " with 2 line options: x and a" << std::endl;
