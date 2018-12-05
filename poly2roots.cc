@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
     b = std::stod(argv[2]);
     c = std::stod(argv[3]);
     // find discriminant
-    discriminant = b * b - 4 * a * c;
+    discriminant = b * b - 4.0 * a * c;
     std::cout << "equation  " << std::endl << a << "x^2 + " << b << "x + " << c << " = 0" << std::endl;
     // compare it with zero
     if(discriminant < 0.0) { // no roots
