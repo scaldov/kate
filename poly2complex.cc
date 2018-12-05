@@ -8,8 +8,6 @@
 #include <math.h>
 #include <complex>
 
-//use c++14 lambda with capture by value
-
 int main(int argc, char *argv[]) {
     // print warning and usage help if not enough arguments given
     if(argc < 4) {
