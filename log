@@ -1,0 +1,37 @@
+anya@scyld:~/src/labs$ ./xaax 1 2
+3
+f(1,2) = 2.5
+
+
+anya@scyld:~/src/labs$ ./poly2roots 1 2 1
+equation  
+1x^2 + 2x + 1 = 0
+has 2-multiple root x = -1
+anya@scyld:~/src/labs$ ./poly2roots 1 -5 6
+equation  
+1x^2 + -5x + 6 = 0
+has roots x1 = 3 and x2 = 2
+anya@scyld:~/src/labs$ ./poly2roots 4 0 -1
+equation  
+4x^2 + 0x + -1 = 0
+has roots x1 = 0.5 and x2 = -0.5
+anya@scyld:~/src/labs$ ./poly2roots 4 0 1
+equation  
+4x^2 + 0x + 1 = 0
+has no roots
+
+
+anya@scyld:~/src/labs$ ./poly2complex 1 0 1
+equation  
+1x^2 + 0x + 1 = 0
+has roots x1 = (0,1) and x2 = (-0,-1)
+anya@scyld:~/src/labs$ ./poly2complex 1 5 6
+equation  
+1x^2 + 5x + 6 = 0
+has roots x1 = (-2,0) and x2 = (-3,-0)
+anya@scyld:~/src/labs$ ./poly2complex 1 2 1
+equation  
+1x^2 + 2x + 1 = 0
+has 2-multiple root x = (-1,0)
+
+
